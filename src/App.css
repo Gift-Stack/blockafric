@@ -26,6 +26,8 @@
 }
 .head-icon:first-child {
     font-size: 3rem;
+    border: 1px #e9e2e2 solid;
+    background: #fff;
 }
 .head-icon:nth-child(2) {
     font-size: 1.5rem;
