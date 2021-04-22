@@ -11,7 +11,7 @@
     padding: 5px 10px;
 }
 #logo {
-    border: 1px solid #333;
+    border: 1px solid rgb(160, 158, 158);
     padding: 0.3em 2em;
     width: 150px;
     text-align: center;
@@ -32,6 +32,21 @@
 .head-icon:nth-child(2) {
     font-size: 1.5rem;
     margin-left: 1rem;
+}
+
+#jumbotron {
+    border: 1px solid rgb(160, 158, 158);
+    border-radius: 10px;
+    background: #f9f9f9;
+    text-align: center;
+    padding: 2rem 0;
+    margin: 0px 10px;
+}
+#jumbotron h2 {
+    margin-bottom: 20px;
+}
+#jumbotron h2:last-child {
+    margin-bottom: 0px;
 }
 
 @media only screen and (max-width: 600px) {
