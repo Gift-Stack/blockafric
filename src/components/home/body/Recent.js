@@ -23,21 +23,6 @@ const Recent = () => {
                     <td>Sent</td>
                     <td>N300.00</td>
                 </tr>
-                <tr>
-                    <td>3/3/21</td>
-                    <td>Sent</td>
-                    <td>N300.00</td>
-                </tr>
-                <tr>
-                    <td>3/3/21</td>
-                    <td>Sent</td>
-                    <td>N300.00</td>
-                </tr>
-                <tr>
-                    <td>3/3/21</td>
-                    <td>Sent</td>
-                    <td>N300.00</td>
-                </tr>
             </table>
         </div>
     );
