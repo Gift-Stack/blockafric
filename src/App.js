@@ -1,14 +1,23 @@
 import './App.css';
-import Head from './components/home/head/Head';
-import Body from './components/home/body/Body';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
+import Home from './components/home/Home';
+import Activity from './components/activity/Activity';
+import Market from './components/market/Market';
+import Wallet from './components/wallet/Wallet';
+import Earn from './components/earn/Earn';
 
 function App() {
     return (
-        <div>
-            <Head />
-            <br />
-            <Body />
-        </div>
+        <Router>
+            <Switch>
+                <Route exact path='/' component={Home} />
+                <Route exact path='/activity' component={Activity} />
+                <Route path='/wallet' component={Wallet} />
+                <Route path='/market' component={Market} />
+                <Route path='/earn' component={Earn} />
+            </Switch>
+        </Router>
     );
 }
 
