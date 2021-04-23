@@ -30,8 +30,8 @@ const Body = () => {
                 />
             </div>
             <div className='btns'>
-                <button>Send</button>
-                <button>Recieve</button>
+                <button>SEND</button>
+                <button>RECIEVE</button>
             </div>
             <Recent />
         </div>

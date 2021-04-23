@@ -34,11 +34,11 @@
 
 #jumbotron {
     border: 1px solid rgb(160, 158, 158);
-    border-radius: 10px;
-    background: #f9f9f9;
+    border-radius: 30px;
+    background: #f0f0f0;
     box-shadow: 5px 10px 25px #999;
     text-align: center;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     margin: 0px 10px;
 }
 #jumbotron h2 {
@@ -50,11 +50,11 @@
 
 .selectCountry {
     width: 100%;
-    background: #f9f9f9;
+    background: #f0f0f0;
     padding: 15px 10px;
 }
 .selectCountry h4 {
-    color: rgb(34, 181, 230);
+    color: #0bb5ff;
     display: flex;
     align-items: center;
 }
@@ -96,16 +96,17 @@
 .btns button {
     padding: 15px 30px;
     border-radius: 10px;
-    border-color: #3ea5ff;
+    border-color: #0bb5ff;
     outline: none;
-    background: #3ea5ff;
+    /* background: #3ea5ff; */
+    background: #0bb5ff;
     color: #fff;
     font-size: 20px;
 }
 
 .recent-head {
     color: #fff;
-    background: #ccc;
+    background: #ddd;
     padding: 15px 10px;
     margin-bottom: 5px;
 }
