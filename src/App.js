@@ -1,13 +1,13 @@
 import './App.css';
-import Head from './components/head/Head';
-import Jumbotron from './components/jumbotron/Jumbotron';
+import Head from './components/home/head/Head';
+import Body from './components/home/body/Body';
 
 function App() {
     return (
         <div>
             <Head />
             <br />
-            <Jumbotron />
+            <Body />
         </div>
     );
 }
