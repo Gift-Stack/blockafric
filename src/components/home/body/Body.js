@@ -13,13 +13,11 @@ const Body = () => {
                 <h2>TOKEN BALANCE: {token}</h2>
                 <h2>NAIRA BALANCE: {naira}</h2>
             </div>
-            <br />
             <div className='selectCountry'>
                 <h4>
                     Select Currency <IoIosArrowDown />
                 </h4>
             </div>
-            <br />
             <div className='token'>
                 <h2>TOKEN</h2>
                 <input
