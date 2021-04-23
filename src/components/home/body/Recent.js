@@ -10,19 +10,19 @@ const Recent = () => {
                         <th>Amount</th>
                     </tr>
                     <tr>
-                        <td>1/1/21</td>
-                        <td>Sent</td>
-                        <td>N100.00</td>
+                        <th>1/1/21</th>
+                        <th>Sent</th>
+                        <th>N100.00</th>
                     </tr>
                     <tr>
-                        <td>2/2/21</td>
-                        <td>Recieved</td>
-                        <td>N200.00</td>
+                        <th>2/2/21</th>
+                        <th>Recieved</th>
+                        <th>N200.00</th>
                     </tr>
                     <tr>
-                        <td>3/3/21</td>
-                        <td>Sent</td>
-                        <td>N300.00</td>
+                        <th>3/3/21</th>
+                        <th>Sent</th>
+                        <th>N300.00</th>
                     </tr>
                 </table>
             </div>
