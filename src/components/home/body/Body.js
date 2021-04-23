@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { IoIosArrowDown } from 'react-icons/io';
+import Recent from './Recent';
 
 const Body = () => {
     const [token, setToken] = useState('');
@@ -28,6 +29,11 @@ const Body = () => {
                     onChange={e => setAmount(e.target.value)}
                 />
             </div>
+            <div className='btns'>
+                <button>Send</button>
+                <button>Recieve</button>
+            </div>
+            <Recent />
         </div>
     );
 };

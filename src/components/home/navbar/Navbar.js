@@ -7,26 +7,38 @@ import { RiGift2Fill } from 'react-icons/ri';
 import { AiOutlineHeart } from 'react-icons/ai';
 import { GiShop } from 'react-icons/gi';
 
-const Navbar = () => {
+const Navbar = ({ active }) => {
     return (
         <nav>
-            <Link to='/' className='link'>
+            <Link to='/' className='link' id={active === 'home' && 'home'}>
                 <FaHome className='nav-icon' />
                 <div>Home</div>
             </Link>
-            <Link to='/activity' className='link'>
+            <Link
+                to='/activity'
+                className='link'
+                id={active === 'activity' && 'activity'}
+            >
                 <RiFileListFill className='nav-icon' />
                 <div>Activity</div>
             </Link>
-            <Link to='/wallet' className='link'>
+            <Link
+                to='/wallet'
+                className='link'
+                id={active === 'wallet' && 'wallet'}
+            >
                 <BsWallet className='nav-icon' />
                 <div>Wallet</div>
             </Link>
-            <Link to='/market' className='link'>
+            <Link
+                to='/market'
+                className='link'
+                id={active === 'market' && 'market'}
+            >
                 <GiShop className='nav-icon' />
                 <div>Market</div>
             </Link>
-            <Link to='/earn' className='link'>
+            <Link to='/earn' className='link' id={active === 'earn' && 'earn'}>
                 <RiGift2Fill className='nav-icon' />
                 <div>Earn</div>
             </Link>

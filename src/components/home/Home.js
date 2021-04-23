@@ -8,7 +8,7 @@ const Home = () => {
             <Head />
             <br />
             <Body />
-            <Navbar />
+            <Navbar active='home' />
         </div>
     );
 };
